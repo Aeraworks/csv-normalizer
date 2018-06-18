@@ -1,0 +1,19 @@
+{
+    "columns": [
+        {
+            "kwargs": {
+                "input_format": "%m/%d/%y %I:%M:%S %p",
+                "timedelta_hours": 3
+            },
+            "transform": "iso8601"
+        },
+        null,
+        { "transform": "zip_code" },
+        { "transform": "upper" },
+        { "transform": "duration" },
+        { "transform": "duration" },
+        { "transform": "custom_total_duration" },
+        null
+    ],
+    "headers": true
+}
